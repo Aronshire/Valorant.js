@@ -90,5 +90,5 @@ class Client extends EventEmitter {
         }, 500);
     }
 }
-process.stdin.resume();
+
 global.Client = module.exports = Client;
