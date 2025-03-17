@@ -91,4 +91,4 @@ class Client extends EventEmitter {
     }
 }
 
-global.Client = module.exports = Client;
+module.exports = Client;
